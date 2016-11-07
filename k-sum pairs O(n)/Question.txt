@@ -1,0 +1,27 @@
+Given an array of integers and a number k, find the number of pairs in the array that sum to k.
+eg: given [1,2,3,4,5] and a number k=6, there are 2 pairs (1,5) and (2,4)
+
+Your program should also work for duplicates in the array.
+eg: given [1,1,1] and a number k=2, there are 3 pairs (1,1) of index pair (0,1); (1,1) of index pair (0,2) and (1,1) of index pair(1,2)
+
+Input:
+First line consists of number of test cases T. The first line of each test case consists of N and K where N is the number of elements in the array
+K is the sum. The second line of each test case contains N space separated numbers that compose the array
+
+Output: 
+The number of pairs for every testcase separated by a newline.
+
+Sample input:
+3
+5 6
+1 2 3 4 5
+3 2
+1 1 1
+6 9
+3 5 4 4 5 6
+
+Sample Outout:
+2
+3
+5
+
