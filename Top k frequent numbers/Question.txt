@@ -1,0 +1,22 @@
+Given a non-empty array of integers, return the k most frequent elements.
+
+
+Note: 
+You may assume k is always valid, 1 = k = number of unique elements.
+Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+
+Input:
+
+First line contains two numbers n and k.
+Next line contains n space separated integers
+
+Output:
+Output the k most repeated integers.
+
+Sample Input:
+10 2
+5 5 5 5 5 4 3 4 3
+
+Sample Output:
+5 4 
+
